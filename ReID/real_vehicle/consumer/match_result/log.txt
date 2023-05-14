@@ -1,0 +1,42 @@
+[18:53:14.297] Pika version 1.2.0 connecting to ('192.168.101.151', 5672)
+[18:53:14.297] Socket connected: <socket.socket fd=1636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.101.151', 42984), raddr=('192.168.101.151', 5672)>
+[18:53:14.298] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001782A91E2B0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001782A91E2B0> params=<ConnectionParameters host=192.168.101.151 port=5672 virtual_host=/ ssl=False>>).
+[18:53:14.301] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001782A91E2B0> params=<ConnectionParameters host=192.168.101.151 port=5672 virtual_host=/ ssl=False>>
+[18:53:14.302] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001782A91E2B0> params=<ConnectionParameters host=192.168.101.151 port=5672 virtual_host=/ ssl=False>>
+[18:53:14.302] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001782A91E2B0> params=<ConnectionParameters host=192.168.101.151 port=5672 virtual_host=/ ssl=False>>
+[18:53:14.302] Created channel=1
+[18:53:27.496] Pika version 1.2.0 connecting to ('192.168.101.151', 5672)
+[18:53:27.496] Socket connected: <socket.socket fd=1628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.101.151', 42988), raddr=('192.168.101.151', 5672)>
+[18:53:27.497] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002E77D9DF320>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002E77D9DF320> params=<ConnectionParameters host=192.168.101.151 port=5672 virtual_host=/ ssl=False>>).
+[18:53:27.499] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002E77D9DF320> params=<ConnectionParameters host=192.168.101.151 port=5672 virtual_host=/ ssl=False>>
+[18:53:27.500] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002E77D9DF320> params=<ConnectionParameters host=192.168.101.151 port=5672 virtual_host=/ ssl=False>>
+[18:53:27.500] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002E77D9DF320> params=<ConnectionParameters host=192.168.101.151 port=5672 virtual_host=/ ssl=False>>
+[18:53:27.500] Created channel=1
+[18:56:04.983] Cam 1 Track 000005 match to Cam 2 Track 000001
+[18:56:05.066] Cam 1 Track 000006 match to Cam 2 Track 000044
+[18:56:05.140] Cam 1 Track 000085 match to Cam 2 Track 000071
+[18:56:05.210] Cam 1 Track 000086 match to Cam 2 Track 000024
+[18:56:05.289] Cam 1 Track 000087 match to Cam 2 Track 000069
+[18:56:05.366] Cam 1 Track 000088 match to Cam 2 Track 000023
+[18:56:05.444] Cam 1 Track 000089 match to Cam 2 Track 000080
+[18:56:05.522] Cam 1 Track 000010 match to Cam 2 Track 000023
+[18:56:05.596] Cam 1 Track 000011 match to Cam 2 Track 000008
+[18:56:05.667] Cam 1 Track 000014 match to Cam 2 Track 000012
+[18:56:05.734] Cam 1 Track 000015 match to Cam 2 Track 000013
+[18:56:05.816] Cam 1 Track 000016 match to Cam 2 Track 000064
+[18:56:05.889] Cam 1 Track 000020 match to Cam 2 Track 000016
+[18:56:05.958] Cam 1 Track 000027 match to Cam 2 Track 000013
+[18:56:06.034] Cam 1 Track 000028 match to Cam 2 Track 000021
+[18:56:06.100] Cam 1 Track 000029 match to Cam 2 Track 000026
+[18:56:06.167] Cam 1 Track 000030 match to Cam 2 Track 000033
+[18:56:06.237] Cam 1 Track 000037 match to Cam 2 Track 000056
+[18:56:06.309] Cam 1 Track 000038 match to Cam 2 Track 000049
+[18:56:06.378] Cam 1 Track 000045 match to Cam 2 Track 000040
+[18:56:06.458] Cam 1 Track 000046 match to Cam 2 Track 000044
+[18:56:06.534] Cam 1 Track 000053 match to Cam 2 Track 000053
+[18:56:06.604] Cam 1 Track 000054 match to Cam 2 Track 000053
+[18:56:06.672] Cam 1 Track 000058 match to Cam 2 Track 000055
+[18:56:06.745] Cam 1 Track 000059 match to Cam 2 Track 000056
+[18:56:06.818] Cam 1 Track 000066 match to Cam 2 Track 000064
+[18:56:06.887] Cam 1 Track 000067 match to Cam 2 Track 000065
+[18:56:06.959] Cam 1 Track 000068 match to Cam 2 Track 000065
