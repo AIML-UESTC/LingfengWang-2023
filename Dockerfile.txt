@@ -1,0 +1,25 @@
+# app/Dockerfile
+
+FROM python:3.6.2
+
+#设置docker容器里面的文件夹名称
+WORKDIR /app
+
+#需要安装的系统包在这里添加
+RUN apt-get update && apt-get install -y && apt-get install libgl1 -y
+
+#如果是本地项目，且dockerfile在当前项目路径下，使用COPY . .则是将本路径下项目文件复制到镜像中
+COPY . .
+
+#需要导出的python依赖放进requirements里面
+RUN pip3 install -r requirements.txt
+RUN pip install ./wheel/torch-1.5.0-cp36-cp36m-linux_x86_64.whl
+RUN pip install ./wheel/torchvision-0.6.0-cp36-cp36m-linux_x86_64.whl
+
+#暴露访问端口，目前服务器这个是能被外网访问的。
+EXPOSE 8511
+
+HEALTHCHECK CMD curl --fail http://localhost:8511/_stcore/health
+
+#streamlit启动参数。启动docker容器运行镜像时，将会自动等效执行 本地 streamlit run xxx.py --server.port=8501 --server.address=0.0.0.0
+ENTRYPOINT ["streamlit", "run", "app.py", "--server.port=8511", "--server.address=0.0.0.0"]
