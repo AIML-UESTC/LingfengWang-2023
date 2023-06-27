@@ -1,9 +1,9 @@
 ### Structure
 Here are each of the main folders/files and what they do.
 
-- `/apps` - This is where we have an `app_<name>.py` file for each app within our overall streamlit app. For example, `/apps/app_silly_strings.py` contains as much of the logic and code that is specific to the "silly string stuff" app.
+- `/apps` - This is where we have an `app_<name>.py` file for each app within our overall streamlit app. For example, `/apps/app_silly_strings.py` contains as much of the logic and code that is specific to each app.
 - `/assets` - The place where your images and other similar types of files live that you want to use across your apps.
-- `/src` - For python code and functions you want to have available on any page of your app you can make a custom module in here. For example the `funny_numbers` module has the functions used by the "crazy numbers" app.
+- `/src` - For python code and functions you want to have available on any page of your app you can make a custom module in here. Including deep learning model structure and inference code.
 - `app.py` - This is the main streamlit app we launch via `streamlit run app.py` which will import and render the other apps as needed.
 - `/resources` - Contain resources files（images、videos）
 - `/ckpts` - Contain model weights
